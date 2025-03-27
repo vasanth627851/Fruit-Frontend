@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Fruit</title>
+    <style>
+        .box{
+            width: 100vw;
+            height: 100vh;
+            background: linear-gradient(to left,#8BC6EC,#9599E2);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container
+        {
+            background-color: #85FFBD;
+            width: fit-content;
+            padding: 20px;
+            height: 100px;
+            border-radius: 20px;   
+        }
+        form
+        {
+            margin-top: 50px;
+        }
+
+        .btn
+        {
+            background-color: #9599E2;
+            border: none;
+            padding: 5px;
+            border-radius: 10px;
+        }
+
+        .btn:hover{
+            color: yellow;
+            cursor: pointer;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="box">
+<div class="container">
+    <form action="https://fruit-backend-2-xaxl.onrender.com/home" method="get">
+        <label for="value"><b>Fruit Name : </b></label><input name="value" id="value">
+        <button class="btn">Add Fruite</button>
+    </form>
+
+</div>
+</div>
+    
+</body>
+</html>
